@@ -1,7 +1,7 @@
 # MQTT_REACT
 Uso de la librería mqtt para react Native
 
-Para el uso de mqtt en React Native se utilizó la librería <a href="https://github.com/AnxiousDarkly/react-native-mqtt">react_native_mqtt</a>
+Para el uso de mqtt en React Native se utilizó la librería <a href="https://github.com/AnxiousDarkly/react-native-mqtt">react_native_mqtt</a>.<br>
 La librería de MQTT requiere de la libreria <a href="https://react-native-async-storage.github.io/async-storage/docs/install/">async-storage</a>
 
 Para implementarla en tu proyecto solo cambia el host y puerto
