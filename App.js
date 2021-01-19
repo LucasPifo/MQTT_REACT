@@ -32,12 +32,6 @@ export default class Aplicacion extends Component{
     };
   }
 
-  componentDidMount(){
-  }
-
-  componentWillUnmount(){
-  }
-
   onConnectionLost = (responseObject) => {
     if(responseObject.errorCode !== 0){
       ToastAndroid.show('onConnectionLost:'+responseObject.errorMessage,ToastAndroid.SHORT,ToastAndroid.CENTER);
